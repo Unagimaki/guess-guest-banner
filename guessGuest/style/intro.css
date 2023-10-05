@@ -1,0 +1,67 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.intro {
+    background: url(../images/intro_background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: inherit;
+    height: inherit;
+    -webkit-transition: .5s opacity;
+    -o-transition: .5s opacity;
+    transition: .5s opacity;
+}
+.intro_border {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0vw;
+    left: 0vw;
+}
+.intro_mask {
+    width: 31.88vw;
+    height: 41vw;
+    position: absolute;
+    left: 52.64vw;
+    top: 21.32vw;
+}
+.intro_inner {
+    padding-top: 13.89vw;
+    position: relative;
+    padding-left: 12vw;
+}
+.logo {
+    width: 39.93vw;
+    height: 8.54vw;
+}
+.intro_info {
+    margin-top: 9.1vw;
+    margin-bottom: 8.13vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+}
+.intro_title {
+    font-family: 'VKDisplay Medium';
+    font-size: 6.25vw;
+    color: #fff;
+    margin-bottom: 1vw;
+}
+.intro_button {
+    width: 21.18vw;
+    padding-top: 1.3vw;
+    padding-bottom: 1.8vw;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4.31vw;
+    font-family: 'VKDisplay DemiBold';
+    font-size: 3vw;
+}

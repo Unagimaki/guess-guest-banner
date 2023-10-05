@@ -1,0 +1,181 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.show {
+    opacity: 0;
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    width: inherit;
+    height: inherit;
+    background: url(../images/show/show_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5.4vw;
+}
+.show_body {
+    padding-left: 5.92vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.show_title {
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    color: #fff;
+    text-align: center;
+    font-size: 3.75vw;
+    font-family: 'VKDisplay Medium';
+    margin-top: 3.47vw;
+    margin-bottom: 3.73vw;
+}
+.show_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.show_header {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.show_logo {
+    width: 36.25vw;
+    height: 7.78vw;
+    margin-left: 3.89vw;
+    margin-bottom: 5.28vw;
+}
+.transparent {
+    opacity: .5;
+}
+.show_round {
+    width: 6.94vw;
+    height: auto;
+    max-width: 100px;
+}
+.show_buttons {
+    width: 83.89vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.show_image_container {
+    margin-right: 2.92vw;
+    width: 64.1vw;
+    height: 34.93vw;
+}
+.show_image {
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+.show_mask {
+    z-index: 3;
+    position: absolute;
+}
+.mask_one {
+    width: 14.31vw;
+    height: auto;
+    top: 34vw;
+    left: 23.35vw;
+}
+.mask_two {
+    width: 37.19vw;
+    height: auto;
+    top: 28vw;
+    left: 42.9vw;
+}
+.mask_three {
+    width: 55.38vw;
+    height: auto;
+    top: 35.5vw;
+    left: 22vw;
+}
+.mask_four {
+    width: 17.8vw;
+    height: auto;
+    top: 30.6vw;
+    left: 27.8vw;
+}
+.show_button {
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+    text-transform: uppercase;
+    font-size: 2.14vw;
+    font-family: 'VKDisplay DemiBold';
+    color: #fff;
+    width: 27vw;
+    height: 4.72vw;
+    border-radius: 71px;
+    position: relative;
+    overflow: hidden;
+    background-color: #0077FF;
+
+}
+.show_button.match:before {
+    content: '';
+    width: 35%;
+    height: 200%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0.5;
+    -webkit-filter: blur;
+            filter: blur;
+    background: -o-linear-gradient(right, transparent 0%, #fff 40%, #fff 60%, transparent 100%);
+    background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(40%, #fff), color-stop(60%, #fff), to(transparent));
+    background: linear-gradient(to left, transparent 0%, #fff 40%, #fff 60%, transparent 100%);
+    -webkit-transform: translate(-100%, -25%) rotate(10deg);
+        -ms-transform: translate(-100%, -25%) rotate(10deg);
+            transform: translate(-100%, -25%) rotate(10deg);
+    -webkit-animation: blick 2s forwards;
+            animation: blick 2s forwards;
+}
+@-webkit-keyframes blick {
+    0% {
+      -webkit-transform: translate(-100%, -25%) rotate(20deg);
+              transform: translate(-100%, -25%) rotate(20deg);
+    }
+
+    100% {
+      -webkit-transform: translate(500%, -25%) rotate(20deg);
+              transform: translate(500%, -25%) rotate(20deg);
+    }
+}
+@keyframes blick {
+    0% {
+      -webkit-transform: translate(-100%, -25%) rotate(20deg);
+              transform: translate(-100%, -25%) rotate(20deg);
+    }
+
+    100% {
+      -webkit-transform: translate(500%, -25%) rotate(20deg);
+              transform: translate(500%, -25%) rotate(20deg);
+    }
+}
